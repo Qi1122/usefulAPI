@@ -1,0 +1,7 @@
+Length:
+
+Array: .length
+
+String: .length()
+
+ArrayList: .size()
