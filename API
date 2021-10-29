@@ -1,7 +1,140 @@
-Length:
+Create new obj：
+
+int[]: new int[size];
+       New int[]{5}
+
+List:  new ArrayList<Integer>()
+	new ArrayList<List<Integer>>()
+
+HashMap: new HashMap<Key, Value>()
+
+HashSet:
+
+String: new String<Integer>()
+	new String greeting = "Hello world!";
+
+API:
+
+String: .indexOf()
+
+
+COMPARE:
+
+String: .equals(obj) / .equalsIgnoreCase(String)
+
+
+
+LENGTH:
 
 Array: .length
 
-String: .length()
+List: .size()
 
 ArrayList: .size()
+
+String: .length()
+
+HashMap: .size()
+
+HashSet: .size()
+
+
+GET ELEMENT:
+
+Array: 
+
+List: .get(index)
+
+ArrayList: .get(index)
+
+String: .charAt(index)
+
+HashMap: .get() / .getOrDefault()
+
+HashSet: N/A
+
+
+CONTAINS:
+
+Array: 
+
+List: .contains(obj)
+
+ArrayList: .contains(obj)
+
+String: .contains(CharSequence cs)
+
+HashMap: .containsKey() / .containsValue()
+
+HashSet: .contains()
+
+
+ADD:
+
+Array: 
+
+List: .add(E e) / .add(int index, E element)
+
+ArrayList: .add(E e) / .add(int index, E element)
+
+String:  N/A immutable
+
+HashMap: .put() / .putIfAbsent()
+
+HashSet: N/A
+
+
+REMOVE:
+
+Array: 
+
+List: .remove(index/obj)
+
+ArrayList: .remove(index/obj)
+
+String:  N/A immutable
+
+HashMap: .remove(Key) / .remove(Key, Value) boolean
+ 
+HashSet: .remove() /boolean
+
+
+CHECK EMPTY:
+
+Array: 
+
+List: .isEmpty()
+
+ArrayList: .isEmpty()
+
+String: .isEmpty() / isBlank() returns true if empty or contains ONLY WHITE SPACE
+
+HashMap: .isEmpty()
+
+HashSet: isEmpty()
+
+
+CLEAR:
+
+Array: 
+
+List: .clear()
+
+ArrayList: .clear()
+
+String: N/A immutable
+
+HashMap: .clear()
+
+HashSet: .clear()
+
+
+IMPORT:
+
+Java:
+
+import java.util.*;
+
+Python:
+
+import mymodule as mx
