@@ -13,6 +13,31 @@ HashSet:
 String: new String<Integer>()
 	new String greeting = "Hello world!";
 
+Java Object API:
+
+.clone()
+
+.equals(Object obj)
+
+.finalize()
+
+.getClass()
+
+.hashCode()
+
+.notify()
+
+.notifyAll()
+
+.toString()
+
+.wait()
+
+.wait(long timeout)
+
+.wait(long timeout, int nanos)
+
+
 API:
 
 String: .indexOf()
